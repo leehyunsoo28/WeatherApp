@@ -1,0 +1,43 @@
+/* top */
+.top { display: flex; position: absolute; right: 40px; width: 300px; }
+.search { 
+    /*border: 1px solid blue; */
+}
+.search img { 
+    /*border: 1px solid black; */
+    width: 20px; height: 20px; 
+    position: absolute; left: -25px; top: 3px;
+}
+.search-input { 
+    border: 1px solid pink; 
+    width: 200px; height: 20px;
+}
+.favorites { 
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.favorites img {
+    /*border: 1px solid black; */
+    height: 20px;
+}
+.setting { 
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.setting img {
+    /*border: 1px solid black; */
+    height: 23px;
+}
+.setting_X { position: absolute; right: 32px; display: none; }
+
+.setting_open { /* display: none; */ }
+.setting_open button { border: none; background-color: white;  cursor: pointer; margin: 10px; padding: 5px; }
+
+
+
+
+
+
+
