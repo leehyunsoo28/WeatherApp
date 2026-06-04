@@ -140,17 +140,24 @@ ok3.addEventListener("click", function(){
 
 
 
-// 데이터 가져오기
-const API_KEY = "a301c150ca64fe4099067ec1e348d72a";
 
-fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=Seoul&appid=${API_KEY}&units=metric&lang=kr`
-)
-.then(response => response.json())
-.then(data => {
-    console.log(data);
-});
-
+//const API_KEY = "a301c150ca64fe4099067ec1e348d72a";
+//
+//fetch(
+//    `https://api.openweathermap.org/data/2.5/weather?q=Seoul&appid=${API_KEY}&units=metric&lang=kr`
+//)
+//.then(response => {
+//    console.log("상태코드:", response.status);
+//    return response.json();
+//})
+//.then(data => {
+//    console.log(data);
+//
+//    if(data.main){
+//        console.log("기온:", data.main.temp);
+//        alert("API 연결 성공");
+//    }
+//});
 
 
 
