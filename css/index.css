@@ -118,8 +118,11 @@ body {
     align-content: center; }
 
 
-
-
+/* right */
+.right { 
+    border: 1px solid blue; position: relative;
+    width: 30%; height: 83%; top: 100px; left: 50px; 
+}
 
 
 
